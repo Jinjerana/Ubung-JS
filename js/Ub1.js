@@ -52,11 +52,53 @@
 // const bmi = Number((weight / Math.pow(height, 2)).toFixed(1))
 // console.log(bmi);
 
-const resp = prompt('What is official name for JavaScript?');
-let message;
-if (resp === 'ECMAScript') {
-	message = 'Reight!';
+// const resp = prompt('What is official name for JavaScript?');
+// let message;
+// if (resp === 'ECMAScript') {
+// 	message = 'Reight!';
+// } else {
+// 	message = 'False! ECMAScript!';
+// }
+// alert(message);
+
+// const hours = 14;
+// const minutes = 26;
+// let timestring;
+
+// if (!minutes) {
+// 	//0 => false + ! => true    minutes === 0
+// 	timestring = `${hours} г.`;
+// } else {
+// 	timestring = `${hours} г. ${minutes} хв.`;
+// }
+// console.log(timestring);
+
+// const userInput = prompt('Put the Number');
+// const toNum = Number(userInput);
+
+// if (!isNaN(toNum) && userInput) {
+// 	if (!toNum) {
+// 		//toNum === 0
+// 		console.log('Its is Null');
+// 	} else if (toNum > 0) {
+// 		console.log('It is positive Number');
+// 	} else {
+// 		console.log('It is negative Number');
+// 	}
+// } else {
+// 	alert('Please put the Number');
+// }
+
+const a = 120;
+const b = 180;
+if (a > 100 && b > 100) {
+	if (a > b) {
+		console.log('a', a);
+	} else if (b > a) {
+		console.log('b', b);
+	} else {
+		console.log('The same');
+	}
 } else {
-	message = 'False! ECMAScript!';
+	console.log(b + 512);
 }
-alert(message);
