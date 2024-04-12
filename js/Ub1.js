@@ -89,16 +89,65 @@
 // 	alert('Please put the Number');
 // }
 
-const a = 120;
-const b = 180;
-if (a > 100 && b > 100) {
-	if (a > b) {
-		console.log('a', a);
-	} else if (b > a) {
-		console.log('b', b);
-	} else {
-		console.log('The same');
+// const a = 120;
+// const b = 180;
+// if (a > 100 && b > 100) {
+// 	if (a > b) {
+// 		console.log('a', a);
+// 	} else if (b > a) {
+// 		console.log('b', b);
+// 	} else {
+// 		console.log('The same');
+// 	}
+// } else {
+// 	console.log(b + 512);
+// }
+
+// let link = 'https://my-site.com/about';
+// if (!link.endsWith('/')) {
+// link += '/'
+// }
+// console.log(link);
+
+// let link = 'https://somesite.com/about';
+// let link = 'https://my-site.com/about';
+// // if (!link.endsWith('/') && link.includes('my-site')) {
+// // 	link += '/';
+// // }
+// link = !link.endsWith('/') && link.includes('my-site') ? link + '/' : link;
+// console.log(link);
+
+// const hours = 10;
+// if(hours < 17){
+//     console.log('Pending');
+// }else if(hours >= 17 && hpurs <=24){
+//     console.log('Expires')
+// }else(
+//     console.log('Overdue')
+// )
+
+// const daysUntilDeaedline = 5;
+// let result;
+// switch(daysUntilDeaedline){
+//     case 0:
+//         result = 'Today';
+//         break;
+//     case 1:
+//         result = 'Tomorrow';
+//         break;
+//     case 2:
+//         result = 'After Tomorrow';
+//         break;
+//     default:
+//         result = 'Date in the Future'
+// }
+// console.log(result);
+
+const max = 100;
+const min = 20;
+for (let i = min; i < max; i += 1) {
+	if (i % 5 === 0) {
+		//!(i%5)
+		console.log(i);
 	}
-} else {
-	console.log(b + 512);
 }
